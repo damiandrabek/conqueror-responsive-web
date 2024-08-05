@@ -68,7 +68,7 @@ header {
 } 
 
 @media screen and (min-width: 1260px) {
-  .logo {
+  .-logo {
     flex: 100%;
     position: relative;
     left: -6px;
