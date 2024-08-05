@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./img//icons/webIcon.svg" />
+    <title>Conqueror of Darkness</title>
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/fun.css" />
+    <link rel="stylesheet" href="./css/features.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Junge&family=Lato:wght@300;400&family=Lugrasimo&display=swap');
+    </style>
+
+    <script defer src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
+    <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+    <script>
+      seamless.polyfill();
+    </script>
+  </head>
+  <body id="conqueror">
+    <header>
+      <h1 class="logo container">
+          Conqueror
+      </h1>
+    </header>
+
+    <nav class="main-nav">
+      <ul class="menu container">
+        <li><a href="#conqueror">Conqueror of Darkness</a></li>
+        <li><a href="#game">Game</a></li>
+        <li><a href="#about-us">About us</a></li>
+        <li>
+          <a href="#wishlist">
+            Wishlist
+            <img class="steam" src="./img/logos/steam-logo.png" alt="steam logo" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="features container">
+        <article id="game" class="feature">
+          <figure>
+            <a href="./img/bg/bg1.jpg" target="_blank" rel="noopener">
+              <img
+                class="box rounded"
+                src="./img/bg/bg1.jpg"
+                alt="dark landscape with forest and lake"
+              />
+            </a>
+          </figure>
+
+          <div class="content">
+            <h2>See</h2>
+            <h3>Look into the unknown</h3>
+            <p>Map the skies of the never-ending space</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <figure>
+            <a href="./img/bg/bg2.jpg" target="_blank" rel="noopener">
+              <img
+                class="box rounded"
+                src="./img/bg/bg2.jpg"
+                alt="dark landscape with mountains"
+              />
+            </a>
+          </figure>
+
+          <div class="content">
+            <h2>Travel</h2>
+            <h3>Mount your ride</h3>
+            <p>Voyage through the open</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <figure>
+            <a href="./img/bg/bg3.jpg" target="_blank" rel="noopener">
+              <img
+                class="box rounded"
+                src="./img/bg/bg3.jpg"
+                alt="dark landscape with forest and blue sky"
+              />
+            </a>
+          </figure>
+
+          <div class="content">
+            <h2>Discover</h2>
+            <h3>Learn new stuff</h3>
+            <p>Increase personal capacity</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <figure>
+            <a href="./img/bg/bg4.jpg" target="_blank" rel="noopener">
+              <img
+                class="box rounded"
+                src="./img/bg/bg4.jpg"
+                alt="dark landscape with monochrome black&white forest"
+              />
+            </a>
+          </figure>
+
+          <div class="content">
+            <h2>Experience</h2>
+            <h3>Make life-time memories</h3>
+            <p>Encounter the unimaginable on your journey</p>
+          </div>
+        </article>
+
+        <article id="wishlist" class="feature wishlist">
+          <div class="content">
+            <h3>
+              Wishlist on <br />
+              STEAM
+            </h3>
+            <iframe
+              src="https://store.steampowered.com/widget/1963610/"
+              frameborder="0"
+              width="646"
+              height="190"
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer id="about-us">
+      <div class="us container">
+
+        <form action="" class="footer-item newsletter">
+          <h2>
+            Subscribe to <br>
+            the Conqueror <br>
+            mailing list
+          </h2>
+          <input type="email" placeholder="email address" id="">
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <div class="footer-item discord">
+          <h2>
+            Join <br>
+            our <br>
+            discord
+          </h2>
+
+          <a href="#" class="button">
+            <img src="./img/logos/discord-logo.png" alt="">
+          </a>
+        </div>
+
+        <ul class="footer-item menu contact">
+          <li><a href="#">Presskit</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="logo-contact">
+            Discord
+            <img src="./img/logos/discord-small-logo.webp" alt="discord logo">
+          </a></li>
+          <li><a href="#" class="logo-contact">
+            Twitter
+            <img src="./img/logos/twitter-logo.png" alt="twitter logo">
+          </a></li>
+        </ul>
+
+        <div class="footer-item logos">
+          <img class="pegi-18" src="./img/logos/pegi18-logo.png" alt="pegi 18 logo">
+        </div>
+
+      </div>
+    </footer>
+  </body>
+</html>

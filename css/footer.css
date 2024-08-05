@@ -1,0 +1,112 @@
+.us {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer-item {
+  padding: 4rem 0;
+}
+
+/* newsletter */
+.newsletter h2,
+.discord h2 {
+  margin-bottom: 0.35rem;
+}
+
+
+.newsletter input,
+.newsletter button {
+  border: none;
+  background: white;
+  min-height: 3rem;
+  padding: 0.2rem 1rem 0 1rem;
+}
+
+.newsletter input {
+  width: clamp(10rem, 20vw, 16rem);
+}
+
+.newsletter button {
+  background-color: var(--cl-button);
+  margin-left: 0.5rem;
+}
+
+/* discord */
+.discord a {
+  display: inline-block;
+  width: 15rem;
+  padding: 0.65rem 1rem;
+  
+  background-color: var(--cl-button);
+  text-align: center;
+}
+
+.discord img {
+  width: 7.2rem;
+  vertical-align: middle;
+  position: relative;
+  top: 2pxl
+}
+
+/* pegi logo */
+.pegi-18 {
+  max-width: 6rem;
+}
+
+/* contacts */
+.contact li {
+  margin-bottom: 0.5rem;
+
+}
+
+.contact a {
+  margin: 0;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
+  justify-content: center;
+}
+
+.contact a img {
+  max-width: clamp(1.5rem, 2vw, 2rem);
+}
+
+.logo-contact {
+  position: relative;
+  left: clamp(0.8rem, 3.25vw, 1.15rem);
+}
+
+
+@media screen and (min-width: 810px) {
+  
+  .us {
+    text-align: start;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .footer-item {
+    padding: 8rem 0;
+  }
+
+  .logos {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .logos, .contact {
+    padding-bottom: 4rem;
+    align-self: end;
+  }
+
+  .contact a {
+    justify-content: start;
+  }
+
+  .logo-contact {
+    position: static;
+    left: 0;
+  }
+
+}
