@@ -7,7 +7,7 @@ main {
 .features {
   display: flex;
   flex-direction: column;
-  gap: 5vh;
+  gap: 5rem;
 }
 
 .feature {
